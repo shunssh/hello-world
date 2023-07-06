@@ -28,46 +28,90 @@ pushを行うことで、ローカルリポジトリの内容をリモートリ�
 
 # gitのコマンド
 
-**git init** : リポジトリを新規作成する
+**- git init** 
 
-**git config**   ユーザ情報を設定する
+リポジトリを新規作成する
 
-**git status**   作業ツリーの状態を表示する
+**- git config**   
 
-**git add**   ファイルの変更の追跡を開始する
+ユーザ情報を設定する
 
-**git commit**   作業内容をスナップショットに保存する
+**- git status**   
 
-**git commit --amend --no-edit**   コミットを修正する
+作業ツリーの状態を表示する
 
-**git log**   以前のコミットに関する情報を表示する
+**- git add**   
 
-**git help**   コマンドに関する情報を表示する
+ファイルの変更の追跡を開始する
 
-**git diff**   ステージングされていない変更を表示する
+**- git commit**   
 
-**git checkout**   ブランチを切り替える
+作業内容をスナップショットに保存する
 
-**git rm**   ファイルとインデックス情報を削除する
+**- git commit --amend --no-edit**   
 
-**git reset**   コミットをリセットする
+コミットを修正する
 
-**git revert**   直前のコミットを元に戻す
+**- git log**   
 
-**git clone**   リポジトリを複製する
+以前のコミットに関する情報を表示する
 
-**git pull**   リモートリポジトリからデータを取得する
+**- git help**   
 
-**git request-pull**   pull requestを送信する
+コマンドに関する情報を表示する
 
-**git remote**   リモートを設定する
+**- git diff**   
 
-**git push**   ローカルリポジトリの変更を共有リポジトリに反映させる
+ステージングされていない変更を表示する
 
-**git branch**   ブランチを作成する
+**- git checkout**   
 
-**git stash**   トラックされている変更のあるファイルを一時退避する
+ブランチを切り替える
 
-**git merge**   ブランチをマージする
+**- git rm**   
 
-**git symbolic-ref HEAD refs/heads/main**   HEADをmainと設定する
+ファイルとインデックス情報を削除する
+
+**- git reset**   
+
+コミットをリセットする
+
+**- git revert**   
+
+直前のコミットを元に戻す
+
+**- git clone**   
+
+リポジトリを複製する
+
+**- git pull**   
+
+リモートリポジトリからデータを取得する
+
+**- git request-pull**   
+
+pull requestを送信する
+
+**- git remote**   
+
+リモートを設定する
+
+**- git push**   
+
+ローカルリポジトリの変更を共有リポジトリに反映させる
+
+**- git branch**   
+
+ブランチを作成する
+
+**- git stash**   
+
+トラックされている変更のあるファイルを一時退避する
+
+**- git merge**   
+
+ブランチをマージする
+
+**- git symbolic-ref HEAD refs/heads/main**   
+
+HEADをmainと設定する
