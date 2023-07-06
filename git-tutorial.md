@@ -2,6 +2,7 @@
 
 gitは分散管理型のバージョン管理システムであり、以下のような機能がある。
 
+
 - コミット
 
 ファイル作成/変更/削除を記録し、過去のファイルや変更を元に戻すことができる。
@@ -12,6 +13,7 @@ gitは分散管理型のバージョン管理システムであり、以下の�
 gitが管理するプロジェクトのフォルダである．
 
 - ローカルリポジトリ
+
 gitで管理されていないファイルはuntracked、gitで管理されているが変更されていないファイルはunmodified、
 gitで管理されていて変更されたファイルはmodifiedの状態となる。
 
@@ -20,58 +22,77 @@ gitで管理されていて変更されたファイルはmodifiedの状態とな
 # gitのコマンド
 
 - git init
+
 リポジトリを新規作成する
 
 - git config
+
 ユーザ情報を設定する
 
 - git status
+
 作業ツリーの状態を表示する
 
 - git add
+
 ファイルの変更の追跡を開始する
 
 - git commit
+
 作業内容をスナップショットに保存する
 
 - git log
+
 以前のコミットに関する情報を表示する
 
--git help
+- git help
+
 コマンドに関する情報を表示する
 
--git diff
+- git diff
+
 ステージングされていない変更を表示する
 
--git checkout
+- git checkout
+
 ブランチを切り替える
 
--git reset
+- git reset
+
 ファイルの削除をステージング解除する
 
--git revert
+- git revert
+
 直前のコミットを元に戻す
 
--git clone
+- git clone
+
 リポジトリを複製する
 
--git pull
+- git pull
+
 リモートリポジトリからデータを取得する
 
--git request-pull
+- git request-pull
+
 pull requestを送信する
 
--git remote
+- git remote
+
 リモートを設定する
 
--git push
+- git push
+
 ローカルリポジトリの変更を共有リポジトリに反映させる
 
--git branch
+- git branch
+
 ブランチを作成する
 
--git stash
+- git stash
+
 トラックされている変更のあるファイルを一時退避する
 
--git merge
+- git merge
+
 ブランチをマージする
