@@ -1,50 +1,75 @@
-**gitの機能**
+# gitの機能
 
-gitでは、分散型バージョンコントロールを行うことができ、以下のような機能がある。
+gitは分散管理型のバージョン管理システムであり、以下のような機能がある。
+
+- コミット
+ファイル作成/変更/削除を記録し、過去のファイルや変更を元に戻すことができる。
+また、コミットにメッセージを残すこともできる。
+
+- リポジトリ
+gitが管理するプロジェクトのフォルダである．
+
+- ローカルリポジトリ
+gitで管理されていないファイルはuntracked、gitで管理されているが変更されていないファイルはunmodified、
+gitで管理されていて変更されたファイルはmodifiedの状態となる。
 
 
 
-**gitのコマンド**
+# gitのコマンド
 
--git init
+- git init
+リポジトリを新規作成する
 
+- git config
+ユーザ情報を設定する
 
--git config
+- git status
+作業ツリーの状態を表示する
 
--git symbolic
+- git add
+ファイルの変更の追跡を開始する
 
--git status
+- git commit
+作業内容をスナップショットに保存する
 
--git add
-
--git commit
-
--git log
+- git log
+以前のコミットに関する情報を表示する
 
 -git help
+コマンドに関する情報を表示する
 
 -git diff
+ステージングされていない変更を表示する
 
 -git checkout
+ブランチを切り替える
 
 -git reset
+ファイルの削除をステージング解除する
 
 -git revert
+直前のコミットを元に戻す
 
 -git clone
+リポジトリを複製する
 
 -git pull
+リモートリポジトリからデータを取得する
 
 -git request-pull
+pull requestを送信する
 
 -git remote
+リモートを設定する
 
 -git push
+ローカルリポジトリの変更を共有リポジトリに反映させる
 
 -git branch
+ブランチを作成する
 
 -git stash
+トラックされている変更のあるファイルを一時退避する
 
 -git merge
-
--
+ブランチをマージする
