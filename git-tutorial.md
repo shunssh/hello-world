@@ -18,7 +18,7 @@ gitが管理するプロジェクトのフォルダである。
 
 gitで管理されていないファイルはuntracked、gitで管理されているが変更されていないファイルはunmodified、
 gitで管理されていて変更されたファイルはmodifiedの状態となる。
-pushを行うことで、ローカルリポジトリの変更をリモートリポジトリに反映させる。
+pushを行うことで、ローカルリポジトリの内容をリモートリポジトリに反映させる。
 
 **ブランチ**
 
@@ -28,46 +28,46 @@ pushを行うことで、ローカルリポジトリの変更をリモートリ�
 
 # gitのコマンド
 
-**git init** リポジトリを新規作成する
+**git init**   リポジトリを新規作成する
 
-**git config** ユーザ情報を設定する
+**git config**   ユーザ情報を設定する
 
-**git status** 作業ツリーの状態を表示する
+**git status**   作業ツリーの状態を表示する
 
-**git add** ファイルの変更の追跡を開始する
+**git add**   ファイルの変更の追跡を開始する
 
-**git commit** 作業内容をスナップショットに保存する
+**git commit**   作業内容をスナップショットに保存する
 
-**git commit --amend --no-edit** コミットを修正する
+**git commit --amend --no-edit**   コミットを修正する
 
-**git log** 以前のコミットに関する情報を表示する
+**git log**   以前のコミットに関する情報を表示する
 
-**git help** コマンドに関する情報を表示する
+**git help**   コマンドに関する情報を表示する
 
-**git diff** ステージングされていない変更を表示する
+**git diff**   ステージングされていない変更を表示する
 
-**git checkout** ブランチを切り替える
+**git checkout**   ブランチを切り替える
 
-**git rm** ファイルとインデックス情報を削除する
+**git rm**   ファイルとインデックス情報を削除する
 
-**git reset** コミットをリセットする
+**git reset**   コミットをリセットする
 
-**git revert** 直前のコミットを元に戻す
+**git revert**   直前のコミットを元に戻す
 
-**git clone** リポジトリを複製する
+**git clone**   リポジトリを複製する
 
-**git pull** リモートリポジトリからデータを取得する
+**git pull**   リモートリポジトリからデータを取得する
 
-**git request-pull** pull requestを送信する
+**git request-pull**   pull requestを送信する
 
-**git remote** リモートを設定する
+**git remote**   リモートを設定する
 
-**git push** ローカルリポジトリの変更を共有リポジトリに反映させる
+**git push**   ローカルリポジトリの変更を共有リポジトリに反映させる
 
-**git branch** ブランチを作成する
+**git branch**   ブランチを作成する
 
-**git stash** トラックされている変更のあるファイルを一時退避する
+**git stash**   トラックされている変更のあるファイルを一時退避する
 
-**git merge** ブランチをマージする
+**git merge**   ブランチをマージする
 
-**git symbolic-ref HEAD refs/heads/main** HEADをmainと設定する
+**git symbolic-ref HEAD refs/heads/main**   HEADをmainと設定する
