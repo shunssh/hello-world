@@ -28,9 +28,7 @@ pull requestを送信し、pushを行うことで、ローカルリポジトリ�
 
 # gitのコマンド
 
-**git init**
-
-    リポジトリを新規作成する
+**git init**: リポジトリを新規作成する
 
 **git config**
 
