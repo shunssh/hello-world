@@ -30,7 +30,7 @@ pull requestを送信し、pushを行うことで、ローカルリポジトリ�
 
 **git init**
 
-リポジトリを新規作成する
+    リポジトリを新規作成する
 
 **git config**
 
